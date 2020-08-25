@@ -9,10 +9,3 @@
   color: black;
 }
 
-.feynman__link:hover {
-  text-decoration: underline;
-}
-
-.feynman__link:visited {
-  color: black;
-}
