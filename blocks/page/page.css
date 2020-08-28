@@ -1,3 +1,14 @@
+@font-face {
+  src: url('../../fonts/Raleway-Regular.ttf');
+  font-family: 'Raleway';
+}
+
+@font-face {
+  src: url('../../fonts/Raleway-SemiBold.ttf');
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,5 +17,5 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
 }
