@@ -13,9 +13,9 @@ The following technologies were used:
 4. YouTube API
 5. BEM (Nested structure)
 6. Prefixed by [https://autoprefixer.github.io](https://autoprefixer.github.io)
-  * PostCSS: v7.0.29,
-  * Autoprefixer: v9.7.6
-  * Browsers: last 4 version
+    * PostCSS: v7.0.29,
+    * Autoprefixer: v9.7.6
+    * Browsers: last 4 version
 
 ## Future plans
 
