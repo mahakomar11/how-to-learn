@@ -8,17 +8,17 @@ This project is a one page site that accumulates useful techniques and links for
 
 The following technologies were used:
 1. Flexbox
-2. Positioning
-3. Transition and animation
-4. YouTube API
-5. BEM (Nested structure)
-6. Prefixed by [https://autoprefixer.github.io](https://autoprefixer.github.io):
+1. Positioning
+1. Transition and animation
+1. YouTube API
+1. BEM (Nested structure)
+1. Prefixed by [https://autoprefixer.github.io](https://autoprefixer.github.io):
     * PostCSS: v7.0.29,
     * Autoprefixer: v9.7.6
     * Browsers: last 4 version
 
 ## Future plans
 
-1. Add feedback form
-2. Add more helpful links
-3. Use grid technology
+1. Add more helpful links
+1. Use grid technology
+1. Add action to form

@@ -1,0 +1,16 @@
+.form__heading {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.form__heading::after {
+  content: '\2217';
+  color: #2f80ed;
+  font-weight: bold;
+  position: relative;
+  top: -5px;
+  left: 2px;
+}

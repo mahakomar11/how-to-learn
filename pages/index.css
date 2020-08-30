@@ -71,7 +71,15 @@
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/transition-link/transition-link.css);
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__fieldset/form__fieldset.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__buttons/form__buttons.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__main/form__main.css);
 
 /* * {
   outline-width: 1px;

@@ -1,0 +1,25 @@
+.form__button {
+  background-color: #2f80ed;
+  min-width: 124px;
+  min-height: 50px;
+  color: white;
+  font-weight: bold;
+  border-width: 2px;
+  border-style: outset;
+  border-color: #fdfbfb;
+  margin-right: 15px;
+}
+
+.form__button:last-of-type {
+  margin-right: 0;
+}
+
+.form__button:hover {
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+.form__button:focus {
+  outline-width: 0;
+}

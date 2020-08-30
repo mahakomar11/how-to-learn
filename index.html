@@ -269,6 +269,43 @@
         </ul>
       </section>
 
+      <section class="feedback">
+        <h2 class="section-title">Форма для обратной связи</h2>
+        <p class="section-subtitle">Помогите Маше стать лучше</p>
+        <form class="form">
+          <div class="form__main">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Как к вам обращаться?</label>
+                <input type="text" name="name" id="name" class="form__input" placeholder="Ваше имя">
+              <label for="email" class="form__label">По с вами связаться?</label>
+                <input type="email" name="email" id="email" class="form__input" placeholder="Ваш e-mail">
+              <label for="occupation" class="form__label">Чем вы занимаетесь?</label>
+                <select name="occupation" id="occupation" class="form__input">
+                  <option value="student">учусь</option>
+                  <option value="employee">работаю</option>
+                  <option value="self-educator">самообразовываюсь</option>
+                  <option value="other">другое</option>
+                </select>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <h3 class="form__heading">Был ли мой сайт вам полезен?</h3>
+                <input type="radio" name="useful" id="yes" class="form__input" value="yes" required><label for="yes" class="form__label">Да</label>
+                <input type="radio" name="useful" id="no" class="form__input" value="no" required><label for="no" class="form__label">Нет</label>
+              <label for="rating" class="form__label">Как бы вы оценили сайт?</label>
+                <input type="number" name="rating" class="form__input" id="rating" min="1" max="5" placeholder="1-5" required>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="comment" class="form__label">Хотите сказать что-то ещё?</label>
+              <textarea name="comment" id="comment" class="form__input" cols="30" rows="8" placeholder="Напишите, что понравилось и что было полезно, а что можно улучшить"></textarea>
+            </fieldset>
+        </div>
+          <fieldset class="form__buttons">
+              <input type="submit" class="form__button" value="Отправить">
+              <input type="reset" class="form__button" value="Сбросить">
+          </fieldset>
+        </form>
+      </section>
+
     </main>
     <footer class="footer">
       <div class="footer__columns">

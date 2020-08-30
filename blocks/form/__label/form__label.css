@@ -1,0 +1,21 @@
+.form__label {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  display: block;
+  font-size: 18px;
+}
+
+.form__label[for='yes'], .form__label[for='no'] {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.form__label[for=rating]::after {
+  content: '\2217';
+  color: #2f80ed;
+  font-weight: bold;
+  position: relative;
+  top: -5px;
+  left: 2px;
+}

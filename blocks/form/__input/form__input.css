@@ -1,0 +1,35 @@
+.form__input {
+  font-size: 18px;
+}
+
+.form__input:focus {
+  outline-color: #2f80ed;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #b9b9b9;
+}
+
+.form__input::-moz-placeholder {
+  color: #b9b9b9;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #b9b9b9;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #b9b9b9;
+}
+
+.form__input::placeholder {
+  color: #b9b9b9;
+}
+
+.form__input[name=name], .form__input[name=email] {
+  min-width: 275px;
+}
+
+.form__input[name=occupation] {
+  min-width: 283px;
+}
