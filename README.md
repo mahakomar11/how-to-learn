@@ -2,6 +2,7 @@
 ![alt text](https://github.com/mahakomar11/how-to-learn/blob/master/images/header-image.png?raw=true)
 ## Description
 
+Project link: https://mahakomar11.github.io/how-to-learn/  
 This project is a one page site that accumulates useful techniques and links for more efficient learning.
 
 ### Technologies
